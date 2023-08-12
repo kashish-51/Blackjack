@@ -47,15 +47,15 @@ function renderGame() {
     }
     sumEl.textContent = "Sum:" + " " + sum                         
     if (sum <= 20) {                                     //comparison operator
-        message = "Do you want to draw a new card?"
+        message = "Do you want to draw a new card? 🙂"
     }
     else if (sum == 21) {
-        messsage = "You have got blackjack"
+        messsage = "You have got blackjack 😍"
         hasBlackJack = true
 
     }
     else {
-        message = "You are out of the game"
+        message = "You are out of the game 😟"
         isAlive = false
 
     }
